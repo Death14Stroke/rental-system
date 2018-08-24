@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developer.darren.com.rentalsystem.MainActivity">
+    <item
+        android:id="@+id/main_place_add"
+        android:orderInCategory="100"
+        android:title="Place Ad"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_profile"
+        android:orderInCategory="100"
+        android:title="My Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_my_ads"
+        android:orderInCategory="100"
+        android:title="My Ads"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/main_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

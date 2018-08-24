@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1084342369659",
+    "firebase_url": "https://rental-system-f167c.firebaseio.com",
+    "project_id": "rental-system-f167c",
+    "storage_bucket": "rental-system-f167c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084342369659:android:1b8ce7327c1df826",
+        "android_client_info": {
+          "package_name": "com.developer.darren.com.rentalsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084342369659-av1982j1npqtb0en5bam0pvffkmam87h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.darren.com.rentalsystem",
+            "certificate_hash": "cf3edbcd8a76f7ab7f1a82f61b0d2cc2fc862a96"
+          }
+        },
+        {
+          "client_id": "1084342369659-adq8c2bsvc731ubg5hioqcgvacal8vcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVTOUpPs7thDx-PfPz8YwSYNKTSOWkWbI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084342369659-adq8c2bsvc731ubg5hioqcgvacal8vcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

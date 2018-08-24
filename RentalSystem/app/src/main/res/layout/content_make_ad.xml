@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MakeAdActivity"
+    tools:showIn="@layout/activity_make_ad">
+
+    <Spinner
+        android:id="@+id/cat_spinner_make_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="19dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ele"
+            android:scaleType="fitXY"
+            android:id="@+id/upload_ad_image"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#d8bcbc"
+            android:id="@+id/upload_ad_image_btn"
+            style="?borderlessButtonStyle"
+            android:layout_gravity="bottom|end"
+            android:src="@android:drawable/ic_menu_camera"/>
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/productname_make_ad"
+            android:hint="Product Name" />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/description_make_ad"
+            android:inputType="text"
+            android:layout_below="@id/productname_make_ad"
+            android:hint="Description"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/price_make_ad"
+            android:layout_below="@id/description_make_ad"
+            android:hint="Price"/>
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitBtn_make_ad"
+            android:layout_below="@id/price_make_ad"/>
+    </RelativeLayout>
+</LinearLayout>
